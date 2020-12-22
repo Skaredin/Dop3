@@ -1,0 +1,49 @@
+﻿<Window x:Class="Dop3.Zzadanie6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dop3"
+        mc:Ignorable="d"
+        Title="Zzadanie6" Height="450" Width="800">
+    <StackPanel>
+
+        <Expander Expanded="Expander_Expanded" Collapsed="Expander_Collapsed">
+            <Expander.Header>
+                <Button Background="Coral" Width="666" Margin="3" Content="Test (Zadanie7)" Click="Button_Click"/>
+
+
+            </Expander.Header>
+              <StackPanel>
+                <TextBlock>Дни недели</TextBlock>
+                <CheckBox>Понедельник</CheckBox>
+                <CheckBox>Вторник</CheckBox>
+                <CheckBox>Среда</CheckBox>
+                <CheckBox>Четверг</CheckBox>
+                <CheckBox>Пятница</CheckBox>
+                <CheckBox>Суббота</CheckBox>
+                <CheckBox>Воскресенье</CheckBox>
+            </StackPanel>
+
+        </Expander>
+        
+        <Expander >
+            <Expander.Header>
+                <Button Background="Coral" Width="666" Margin="3" Content="Test (Zadanie7)" Click="Button_Click"/>
+
+
+            </Expander.Header>
+            <StackPanel>
+                <TextBlock>Дни недели</TextBlock>
+                <CheckBox>Понедельник</CheckBox>
+                <CheckBox>Вторник</CheckBox>
+                <CheckBox>Среда</CheckBox>
+                <CheckBox>Четверг</CheckBox>
+                <CheckBox>Пятница</CheckBox>
+                <CheckBox>Суббота</CheckBox>
+                <CheckBox>Воскресенье</CheckBox>
+            </StackPanel>
+
+        </Expander>
+    </StackPanel>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Dop3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dop3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel x:Name="Sp1">
+        <CheckBox x:Name="Ceke1" Unchecked="Ceke1_Unchecked"  Indeterminate="Ceke1_Indeterminate" Checked="Ceke1_Checked"  IsChecked="False" IsThreeState="True" Height="20" Content="Ne otmeceno" HorizontalContentAlignment="Center"/>
+        <CheckBox x:Name="Ceke2" IsChecked="True" IsThreeState="True" Height="20" Content="Otmeceno" HorizontalContentAlignment="Center" Margin="0,0,0,0"/>
+        <CheckBox x:Name="Ceke3" IsChecked="{x:Null}" IsThreeState="True" Height="20"  Content="Ne opredeleno" HorizontalContentAlignment="Center" Margin="0,0,0,0"/>
+    </StackPanel>
+</Window>
